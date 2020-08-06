@@ -65,7 +65,6 @@ class TweetController: UICollectionViewController {
         actionSheetLauncher.delegate = self
         actionSheetLauncher.show()
     }
-    
 }
 
 // MARK: -  UICollectionViewDatasource
@@ -74,7 +73,6 @@ extension TweetController {
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return replies.count
     }
-    
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! TweetCell
         cell.tweet = replies[indexPath.row]
@@ -85,7 +83,6 @@ extension TweetController {
 //MARK: -  UICollectionViewDelegate
 
 extension TweetController {
-    
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerIdentifier, for: indexPath) as! TweetHeader
         header.tweet = tweet
@@ -95,7 +92,6 @@ extension TweetController {
     }
 }
 
-
 //MARK: -  UICollectionViewDelegateFlowLayout
 
 extension TweetController: UICollectionViewDelegateFlowLayout {
@@ -104,11 +100,9 @@ extension TweetController: UICollectionViewDelegateFlowLayout {
         let height = viewModel.size(forWidth: view.frame.width, font: 20).height
         return CGSize(width: view.frame.width, height: height + 240)
     }
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: view.frame.width, height: 120)
     }
-    
 }
 
 //MARK: -  TweetHeaderDelegate

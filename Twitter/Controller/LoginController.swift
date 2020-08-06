@@ -35,7 +35,7 @@ class LoginController: UIViewController {
           return view
       }()
       
-      private let emailTextField: UITextField = {
+    private let emailTextField: UITextField = {
           let tf = Utilities().textField(withPlaceholder: "Email")
           return tf
       }()
@@ -123,7 +123,6 @@ class LoginController: UIViewController {
         dontHaveAccountButton.anchor(left: view.leftAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.rightAnchor, paddingLeft: 40, paddingRight: 40)
         
     }
-    
 
 }
 

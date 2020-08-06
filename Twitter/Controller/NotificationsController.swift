@@ -128,6 +128,4 @@ extension NotificationsController: NotificationCellDelegate {
         let controller = ProfileController(user: user)
         navigationController?.pushViewController(controller, animated: true)
     }
-    
-    
 }

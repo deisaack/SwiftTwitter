@@ -149,5 +149,4 @@ extension ActionSheetLauncher: UITableViewDelegate {
             self.delegate?.didSelect(option: option)
         }
     }
-
 }

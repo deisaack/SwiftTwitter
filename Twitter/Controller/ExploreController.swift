@@ -106,6 +106,4 @@ extension ExploreController: UISearchResultsUpdating {
         }
         filteredUsers = users.filter({$0.username.contains(searchText) || $0.fullname.lowercased().contains(searchText)})
     }
-    
-    
 }

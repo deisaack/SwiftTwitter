@@ -55,6 +55,7 @@
 		839AFAFB24BBCD1800D7C76D /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839AFAFA24BBCD1800D7C76D /* NotificationService.swift */; };
 		839AFAFD24BC898400D7C76D /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839AFAFC24BC898300D7C76D /* NotificationCell.swift */; };
 		839AFAFF24BC91D500D7C76D /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839AFAFE24BC91D500D7C76D /* NotificationViewModel.swift */; };
+		C81E4731A951931F420D9974 /* A.TXT in Resources */ = {isa = PBXBuildFile; fileRef = C817159F8A32CF24F6B0A24B /* A.TXT */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		839AFAFC24BC898300D7C76D /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		839AFAFE24BC91D500D7C76D /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 		C0337F766220E7DBBB7A4FA6 /* Pods_Twitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C817159F8A32CF24F6B0A24B /* A.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = A.TXT; sourceTree = "<group>"; };
 		D01F5D3AE59B0494FEB8B2E8 /* Pods-Twitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.debug.xcconfig"; path = "Target Support Files/Pods-Twitter/Pods-Twitter.debug.xcconfig"; sourceTree = "<group>"; };
 		FE01544F6FDBCC185C709DEE /* Pods-Twitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.release.xcconfig"; path = "Target Support Files/Pods-Twitter/Pods-Twitter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +181,7 @@
 				8390D42824B6460A00E7A9E8 /* LaunchScreen.storyboard */,
 				8390D42B24B6460A00E7A9E8 /* Info.plist */,
 				8390D44A24B6A2AF00E7A9E8 /* GoogleService-Info.plist */,
+				C817159F8A32CF24F6B0A24B /* A.TXT */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				8390D44B24B6A2AF00E7A9E8 /* GoogleService-Info.plist in Resources */,
 				8390D42724B6460A00E7A9E8 /* Assets.xcassets in Resources */,
 				8390D42524B6460800E7A9E8 /* Main.storyboard in Resources */,
+				C81E4731A951931F420D9974 /* A.TXT in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
